@@ -77,7 +77,7 @@ module Fluent
     def initialize
       super
 
-      require 'aws-sdk-core'
+      require 'aws-sdk-cloudwatchlogs'
     end
 
     def placeholders
